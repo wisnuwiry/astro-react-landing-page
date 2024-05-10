@@ -4,13 +4,28 @@
 
 .img-intro,
 .intro-text {
-  min-height: min(90vh, 700px);
+  min-height: min(70vh, 700px);
 }
 
 .img-intro {
-  background-image: url("/img/bg-intro-desktop.svg");
-  background-repeat: no-repeat;
   background-position: bottom left;
+  max-width: min(735px, 70%);
+}
+
+.background-mockup {
+  max-width: 120%;
+  height: 120%;
+  width: 120%;
+  top: -20%;
+  right: -20%;
+  object-fit: contain;
+  object-position: top;
+}
+
+@media only screen and (max-width: 896px) {
+  .img-intro {
+    max-width: min(535px, 55%);
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -19,15 +34,17 @@
   }
   .img-intro {
     height: 100%;
-    width: 100%;
-    margin-bottom: -50px;
+    width: 100vw;
+    margin: 0 0 -50px 0;
     min-height: 300px;
     max-height: 598px;
+    max-width: max-content;
     background-image: url("/img/bg-intro-mobile.svg");
     background-position: bottom;
     background-size: cover;
+    background-repeat: no-repeat;
   }
-  .img-intro img {
+  .img-intro .mockup {
     margin-left: auto;
     margin-right: auto;
     position: relative !important;
@@ -36,6 +53,7 @@
     max-height: 398px;
     margin-top: -80px;
     margin-bottom: 100px;
+    width: 100vw;
   }
   .intro-text {
     min-height: auto;
