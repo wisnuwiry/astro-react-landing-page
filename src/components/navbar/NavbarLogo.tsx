@@ -1,11 +1,12 @@
 import type React from "react";
+import LogoIcon from "../basic/icon/LogoIcon";
 
 interface NavbarLogoProps {}
 
 export const NavbarLogo: React.FC<NavbarLogoProps> = ({}) => {
   return (
     <a className="logo cursor-pointer m-auto" href="/">
-      <img src="/img/logo.svg" alt="Logo" className="h-5" />
+        <LogoIcon className="h-5"/>
     </a>
   );
 };

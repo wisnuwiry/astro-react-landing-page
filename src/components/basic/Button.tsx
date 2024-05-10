@@ -3,7 +3,7 @@ import { cn } from "../../utils/utils";
 
 interface ButtonProps {
   children: ReactNode;
-  className?: String;
+  className?: string;
   onClick?: () => void;
 }
 

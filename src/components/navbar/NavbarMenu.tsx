@@ -10,7 +10,7 @@ export const NavbarMenu: React.FC<NavbarMenuProps> = ({}) => {
       {menus.map((e) => (
         <div className="group cursor-pointer decoration-none flex flex-col justify-center text-disabled hover:text-black">
           <a href="#" className="flex-1 pt-2.5">{e}</a>
-          <div className="h-1 w-0 group-hover:w-full group-hover:bg-gradient-to-br group-hover:to-gradient-end group-hover:from-gradient-start group-hover:to-gradient-end transition-all duration-300 mb-[-15px]"/>
+          <div className="h-1 w-0 group-hover:w-full group-hover:bg-gradient-to-br group-hover:to-gradient-end group-hover:from-gradient-start group-hover:to-gradient-end transition-all duration-300 mb-[-16px]"/>
         </div>
       ))}
     </div>

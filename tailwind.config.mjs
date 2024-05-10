@@ -10,7 +10,8 @@ export default {
 				'secondary-background': '#F4F5F7',
 				'gradient-start': '#33D35E',
 				'gradient-end': '#2AB6D9',
-				disabled: '#9597A5'
+				disabled: '#9597A5',
+				'text-solid': '#2D314D',
 			},
 			fontFamily: {
 				'font-sans': ['Public Sans', 'ui-sans-serif', 'system-ui', 'sans-serif', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji']
