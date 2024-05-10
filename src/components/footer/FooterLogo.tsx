@@ -11,7 +11,7 @@ interface FooterLogoProps {}
 export const FooterLogo: React.FC<FooterLogoProps> = ({}) => {
   return (
     <div className="flex flex-col justify-between flex-1">
-      <LogoIcon className="h-5" fill="white"/>
+      <LogoIcon className="h-5 mb-8" fill="white"/>
 
       {/* Social Media Accounts */}
       <div className="flex flex-row gap-3">

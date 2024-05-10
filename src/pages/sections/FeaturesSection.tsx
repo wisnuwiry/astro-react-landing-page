@@ -13,28 +13,28 @@ export const FeaturesSection = ({}) => {
       icon: <OnlineIcon />,
     },
     {
-        title: "Simple Budgeting",
-        description:
-          "See exactly where your money goes each month. Receive notifications when you’re close to hitting your limits.",
-        icon: <BudgettingIcon />,
-      },
-      {
-        title: "Fast Onboarding",
-        description:
-          "We don’t do branches. Open your account in minutes online and start taking control of your finances right away.",
-        icon: <OnboardingIcon />,
-      },
-      {
-        title: "Open API",
-        description:
-          "Manage your savings, investments, pension, and much more from one account. Tracking your money has never been easier.",
-        icon: <ApiIcon />,
-      },
+      title: "Simple Budgeting",
+      description:
+        "See exactly where your money goes each month. Receive notifications when you’re close to hitting your limits.",
+      icon: <BudgettingIcon />,
+    },
+    {
+      title: "Fast Onboarding",
+      description:
+        "We don’t do branches. Open your account in minutes online and start taking control of your finances right away.",
+      icon: <OnboardingIcon />,
+    },
+    {
+      title: "Open API",
+      description:
+        "Manage your savings, investments, pension, and much more from one account. Tracking your money has never been easier.",
+      icon: <ApiIcon />,
+    },
   ];
 
   return (
     <div className="bg-secondary-background">
-      <div className="max-w-wrapper m-auto flex flex-col py-[96px]">
+      <div className="max-w-wrapper px-6 m-auto flex flex-col py-[96px]">
         {/* Title */}
         <div className="title max-w-xl gap-4">
           <h3 className="text-[40px] font-light leading-[64px]">

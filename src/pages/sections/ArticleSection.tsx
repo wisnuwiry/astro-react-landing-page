@@ -34,7 +34,7 @@ export const ArticleSection = ({}) => {
 
   return (
     <div className="w-full py-[80px]">
-      <div className="max-w-wrapper m-auto flex flex-col">
+      <div className="max-w-wrapper px-6 m-auto flex flex-col">
         <h3 className="text-[40px] font-light leading-[64px] pb-10">
           Latest Articles
         </h3>
@@ -42,6 +42,7 @@ export const ArticleSection = ({}) => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 md:gap-7">
           {data.map((e, i) => (
             <ArticleCard
+              key={i}
               title={e.title}
               description={e.description}
               image={e.image}

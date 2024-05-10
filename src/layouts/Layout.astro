@@ -20,7 +20,7 @@ const { title } = Astro.props;
 		<title>{title}</title>
 	</head>
 	<body class="bg-background text-text-solid overflow-x-clip">
-		<Navbar/>
+		<Navbar client:load/>
 		
 		<slot />
 
